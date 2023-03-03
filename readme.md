@@ -1,4 +1,4 @@
-Online Song Library
+Online Songs Library
 
 An online Song Library for people who want to explore new songs.
 
