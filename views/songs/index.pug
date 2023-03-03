@@ -1,0 +1,9 @@
+extends ../layout.pug
+block content
+    h1 All Songs
+    .song-grid
+        each song in songs
+            .recipe-card
+                img(src=song.image)
+                h3=song.title
+                p=song.description

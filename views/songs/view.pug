@@ -1,0 +1,7 @@
+extends ../layout.pug
+block content
+    h1 #{song.title}
+    .song-card
+        img(src=song.image)
+        h3=song.title
+        p=song.description
